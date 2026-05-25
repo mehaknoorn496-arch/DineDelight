@@ -1,97 +1,116 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>DineDelight Restaurant</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Poster Design Portfolio</title>
 
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial;
-            background: #fff3e6;
-        }
+<style>
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #f4f4f4;
+}
 
-        header {
-            background: #ff6600;
-            color: white;
-            text-align: center;
-            padding: 20px;
-        }
+header {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
 
-        h1 {
-            margin: 0;
-        }
+header h1 {
+    margin: 0;
+}
 
-        .menu {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 20px;
-            padding: 20px;
-        }
+.section {
+    padding: 30px;
+    text-align: center;
+}
 
-        .card {
-            background: white;
-            padding: 15px;
-            border-radius: 10px;
-            text-align: center;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
+.about {
+    background: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
 
-        button {
-            background: green;
-            color: white;
-            padding: 10px;
-            border: none;
-            margin-top: 10px;
-            cursor: pointer;
-        }
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    padding: 20px;
+}
 
-        footer {
-            background: #333;
-            color: white;
-            text-align: center;
-            padding: 15px;
-            margin-top: 20px;
-        }
-    </style>
+.card {
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.contact {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    margin-top: 20px;
+}
+
+a {
+    color: #00ffcc;
+}
+</style>
 
 </head>
 
 <body>
 
 <header>
-    <h1>🍽️ DineDelight</h1>
-    <p>Best Food • Best Taste • Best Experience</p>
+    <h1>🎨 My Poster Design Portfolio</h1>
+    <p>Creative • Modern • Professional Designs</p>
 </header>
 
-<h2 style="text-align:center; margin-top:20px;">Our Menu</h2>
+<div class="section about">
+    <h2>About Me</h2>
+    <p>
+        I am a passionate graphic designer who creates modern posters, 
+        restaurant menus, and social media designs. My goal is to deliver 
+        creative and attractive visual designs for clients.
+    </p>
+</div>
 
-<div class="menu">
+<h2 style="text-align:center;">My Work</h2>
+
+<div class="gallery">
 
     <div class="card">
-        <h3>Burger 🍔</h3>
-        <button>Order Now</button>
+        <img src="https://source.unsplash.com/400x300/?poster,design">
+        <p>Modern Poster Design</p>
     </div>
 
     <div class="card">
-        <h3>Pizza 🍕</h3>
-        <button>Order Now</button>
+        <img src="https://source.unsplash.com/400x300/?food,poster">
+        <p>Food Poster Design</p>
     </div>
 
     <div class="card">
-        <h3>Pasta 🍝</h3>
-        <button>Order Now</button>
-    </div>
-
-    <div class="card">
-        <h3>Ice Cream 🍦</h3>
-        <button>Order Now</button>
+        <img src="https://source.unsplash.com/400x300/?advertisement,design">
+        <p>Ad Poster Design</p>
     </div>
 
 </div>
 
-<footer>
-    <p>📧 info@dinedelight.com</p>
-</footer>
+<div class="contact">
+    <h2>Contact Me</h2>
+    <p>📧 Email: <b>yourgmail@gmail.com</b></p>
+    <p>💬 Message me for poster design orders</p>
+</div>
 
 </body>
 </html>
